@@ -1,0 +1,76 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Compiled class files
+*.class
+
+# Build artifacts
+/target/
+/build/
+
+# Maven wrapper
+/.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle wrapper
+/gradle/
+gradlew
+gradlew.bat
+
+# Log files
+*.log
+
+# IDE-specific files
+/.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+
+# Eclipse-specific files
+/.classpath
+/.project
+/.settings/
+
+# NetBeans-specific files
+/nbproject/
+/nb-configuration.xml
+
+# macOS-specific files
+.DS_Store
+
+# Application-specific files
+/src/main/resources/application.properties
+/src/main/resources/application.yml
